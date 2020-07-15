@@ -1,0 +1,25 @@
+{
+  "name": "electron-production",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder build --mac --win --publish never",
+    "deploy": "electron-builder build --mac --win --publish always"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^9.1.0",
+    "electron-builder": "^22.7.0"
+  },
+  "dependencies": {
+    "electron-updater": "^4.3.1"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/ashu8912/electron_update_setup.git"
+  }
+}
