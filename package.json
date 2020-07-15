@@ -5,8 +5,8 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "build": "electron-builder build --mac --win --publish never",
-    "deploy": "electron-builder build --mac --win --publish always"
+    "build": "electron-builder build --mac --win --linux --publish never",
+    "deploy": "electron-builder build --mac --win --linux --publish always"
   },
   "keywords": [],
   "author": "",
